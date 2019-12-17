@@ -1,0 +1,34 @@
+{
+  "name": "nodetodo",
+  "version": "1.0.0",
+  "description": "A simple todo list made with Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmadYFakhry/NodeTodo.git"
+  },
+  "keywords": [
+    "Node",
+    "Angular",
+    "Express",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "Ahmad Fakhry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmadYFakhry/NodeTodo/issues"
+  },
+  "homepage": "https://github.com/AhmadYFakhry/NodeTodo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "mongoose": "^5.8.1"
+  }
+}
