@@ -12,8 +12,9 @@ app.use("/assets", express.static(__dirname + "/public"));
 app.set("view engine", "ejs");
 
 mongoose.connect(config.getDbConnectionString(), {
-    useUnifiedTopology: true,
-    useNewUrlParser: true
+  useUnifiedTopology: true,
+  useNewUrlParser: true,
+  useFindAndModify: false
 });
 setupController(app);
 apiController(app);

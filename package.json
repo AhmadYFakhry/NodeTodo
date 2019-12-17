@@ -25,9 +25,7 @@
   "homepage": "https://github.com/AhmadYFakhry/NodeTodo#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongodb": "^3.4.0"
-  },
-  "devDependencies": {
+    "mongodb": "^3.4.0",
     "body-parser": "^1.19.0",
     "ejs": "^3.0.1",
     "mongoose": "^5.8.1",
