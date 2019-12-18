@@ -1,28 +1,53 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="I changed the text" />
+  <div id="title">
+    <Title msg="todo"></Title>
+    <todo-list id="list" v-bind:todos="todos"></todo-list>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
+import todoList from "./components/todoList";
+import Title from "./components/Title";
 export default {
-  name: "app",
   components: {
-    HelloWorld
+    todoList,
+    Title
+  },
+  data() {
+    return {
+      task: [
+        {
+          todo: "Todo A",
+          isDone: false,
+          hasAttachement: false
+        },
+        {
+          todo: "Todo B",
+          isDone: false,
+          hasAttachement: false
+        },
+        {
+          todo: "Todo C",
+          isDone: false,
+          hasAttachement: false
+        }
+      ]
+    };
   }
 };
 </script>
 
 <style>
-#app {
+#title {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #06467a;
-  margin-top: 60px;
+  margin-top: 10px;
+}
+#list {
+  font-size: 30px;
+  padding-right: 300px;
 }
 </style>
