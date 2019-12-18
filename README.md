@@ -1,2 +1,4 @@
 # NodeTodo
- A simple todo list app created with the Node and Angular
+ A simple todo list app created with NodeJS
+ 
+
