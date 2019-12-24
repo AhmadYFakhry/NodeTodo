@@ -24,7 +24,7 @@ router.get('/tasks', auth, async (req, res) => {
             owner: req.user._id
         })
         // await req.user.populate('tasks').execPopulate();
-        res.status(200).send(req.user.tasks);
+        res.status(200).send(tasks);
     } catch (e) {
         res.status(400).send(e);
     }
