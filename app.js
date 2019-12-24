@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
@@ -20,3 +21,5 @@ setupController(app);
 apiController(app);
 
 app.listen(port);
+=======
+>>>>>>> Stashed changes
