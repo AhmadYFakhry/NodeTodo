@@ -108,3 +108,4 @@ dist
 .tern-port
 config/config.json
 .DS_Store
+variables.env
