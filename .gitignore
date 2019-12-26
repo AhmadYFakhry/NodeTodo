@@ -108,5 +108,9 @@ dist
 .tern-port
 config/config.json
 .DS_Store
+
+# Extras and unit tests
 variables.env
+test.env
 *.code-workspace
+tests/

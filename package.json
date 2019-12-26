@@ -4,9 +4,12 @@
   "description": "Simple task manager",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "env-cmd -f test.env jest --watch --runInBand",
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "env-cmd -f variables.env nodemon src/index.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +25,9 @@
     "validator": "^12.1.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.2",
+    "env-cmd": "^10.0.1",
+    "supertest": "^4.0.2"
   }
 }
