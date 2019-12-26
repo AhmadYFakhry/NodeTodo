@@ -2,7 +2,11 @@
 A simple todo list app created with NodeJS
 
 TO DO:
-- Add user interface
-- Connect to a real mongo database (only in production)
+- User Interface
+  - Task view
+  - Header
+  - Footer
+  - Login Page
+  - Drop down menu for user settings
  
 
