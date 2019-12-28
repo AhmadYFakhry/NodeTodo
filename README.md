@@ -1,13 +1,12 @@
 # Task-Manager v.1.0
-A simple todo list app created with NodeJS
+A simple task manager API created with NodeJS with Express, and MongoDB and Mongoose
+ 
+Documentation https://documenter.getpostman.com/view/9830214/SWLZgWVE?version=latest
 
-TO DO:
-- User Interface
-  - Task view
-  - Header
-  - Footer
-  - Login Page
-  - Drop down menu for user settings
- 
- 
- Documentation https://documenter.getpostman.com/view/9830214/SWLZgWVE?version=latest
+Installation instructions
+
+**Environment variables need to be replaced**
+1. npm install
+2. npm run dev - Development mode
+3. npm run start - Normal mode
+4. Accessible locally at localhost:3000 (Look at documentation for correct calls)
