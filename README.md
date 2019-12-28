@@ -7,7 +7,7 @@ A simple task manager API created with NodeJS with Express, and MongoDB and Mong
 Installation instructions
 
 **Environment variables need to be replaced**
-1. npm install
-2. npm run dev - Development mode
-3. npm run start - Normal mode
+1. >> npm install
+2. >> npm run dev - Development mode
+3. >> npm run start - Normal mode
 4. Accessible locally at localhost:3000 (Look at documentation for correct calls)
