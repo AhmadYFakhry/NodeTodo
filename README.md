@@ -1,7 +1,8 @@
-# Task-Manager v.1.0
+# Task-Manager-API v.1.0
 A simple task manager API created with NodeJS with Express, and MongoDB and Mongoose
  
-Documentation https://documenter.getpostman.com/view/9830214/SWLZgWVE?version=latest
+<a href="https://documenter.getpostman.com/view/9830214/SWLZgWVE?version=latest">Documentation</a>
+
 
 Installation instructions
 
